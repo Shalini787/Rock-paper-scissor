@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(221, 217, 217);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 100px;
+}
+p{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+button{
+ border: none; 
+ font-size: 3rem;
+ border-radius: 5px;
+ margin: 0 .5rem;
+ padding: .5rem;
+ cursor: pointer;
+ transition: all 0.3s ease-in-out;
+}
+button:hover{
+    opacity: 0.6;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+#Rock{
+    background-color: red;
+}
+#Paper{
+    background-color: blue;
+}
+#Scissors{
+    background-color: green;
+}
+#player-score{
+    color:green;
+}
+#computer-score{
+    color: red;
+}
